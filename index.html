@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Burger & Slider</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div id="menu-burger">
+        <div id="burger-icon" class="burger-icon">☰</div>
+        <div class="menu-items" id="menuItems">
+            <a href="#accueil">Accueil</a>
+            <a href="#about">À Propos</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div id="slider">
+        <div class="slide" style="background-image:url('images/infos.jpg');"></div>
+        <div class="slide" style="background-image:url('images/photos.jpg');"></div>
+        <div class="slide" style="background-image:url('images/promos.jpg');"></div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
